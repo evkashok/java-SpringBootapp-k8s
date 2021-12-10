@@ -1,6 +1,6 @@
 #Get base image having openjdk version 8
 FROM openjdk:8u131-jre
-
+#done change
 MAINTAINER Chenna Vemula <cvemula.unix@gmail.com>
 #Expose ports
 EXPOSE 8080
