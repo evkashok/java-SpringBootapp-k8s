@@ -6,7 +6,7 @@ RUN mkdir /my_springboot
 ADD target/spring-boot-web-0.0.1-SNAPSHOT.jar /my_springboot
 WORKDIR /my_springboot
 #Expose ports
-EXPOSE 8080
+EXPOSE 8081
 
 ENV JAVA_VER=1.8.0
 
