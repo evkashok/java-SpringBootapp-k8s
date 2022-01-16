@@ -4,7 +4,7 @@ VOLUME /f/dockerimages/
 #my first commit
 MAINTAINER Chenna Vemula <cvemula.unix@gmail.com>
 RUN mkdir /my_springboot
-COPY target/spring-boot-web-0.0.1-SNAPSHOT.jar /f/dockersave/
+COPY /var/lib/docker/tmp/spring-boot-web-0.0.1-SNAPSHOT.jar /f/dockersave/
 WORKDIR /f/dockersave/
 #Expose ports
 EXPOSE 8080
